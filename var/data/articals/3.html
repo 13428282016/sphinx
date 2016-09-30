@@ -1,0 +1,17 @@
+v class="sect2" title="12.1.28.&nbsp;sql_query_post"><div class="titlepage"><div><div><h3 class="title"><a name="conf-sql-query-post"></a>12.1.28.&nbsp;sql_query_post</h3></div></div></div>
+<p>
+Post-fetch query.
+Optional, default value is empty.
+Applies to SQL source types (<code class="option">mysql</code>, <code class="option">pgsql</code>, <code class="option">mssql</code>) only.
+</p><p>
+This query is executed immediately after <a class="link" href="#conf-sql-query" title="12.1.12.&nbsp;sql_query">sql_query</a>
+completes successfully. When post-fetch query produces errors,
+they are reported as warnings, but indexing is <span class="bold"><strong>not</strong></span> terminated.
+It's result set is ignored. Note that indexing is <span class="bold"><strong>not</strong></span> yet completed
+at the point when this query gets executed, and further indexing still may fail.
+Therefore, any permanent updates should not be done from here.
+For instance, updates on helper table that permanently change
+the last successfully indexed ID should not be run from post-fetch
+query; they should be run from <a class="link" href="#conf-sql-query-post-index" title="12.1.29.&nbsp;sql_query_post_index">post-index query</a> instead.
+</p><h4><a name="idp32470624"></a>Example:</h4><pre class="programlisting">sql_query_post = DROP TABLE my_tmp_table
+</pre></div>

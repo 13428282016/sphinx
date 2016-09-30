@@ -1,0 +1,1143 @@
+[Tue Sep 20 14:39:28.141 2016] [5024] watchdog: main process 5025 forked ok
+[Tue Sep 20 14:39:28.145 2016] [5025] listening on all interfaces, port=9312
+[Tue Sep 20 14:39:28.146 2016] [5025] listening on all interfaces, port=9306
+[Tue Sep 20 14:39:28.151 2016] [5025] WARNING: multiple addresses found for 'localhost', using the first one (ip=127.0.0.1)
+[Tue Sep 20 14:39:28.153 2016] [5025] last message repeated 1 times
+[Tue Sep 20 14:39:28.153 2016] [5025] accepting connections
+[Tue Sep 20 18:46:24.938 2016] [8481] watchdog: main process 8482 forked ok
+[Tue Sep 20 18:46:24.938 2016] [8482] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Tue Sep 20 18:46:24.940 2016] [8481] watchdog: main process 8482 exited cleanly (exit code 1), shutting down
+[Tue Sep 20 18:47:19.535 2016] [8502] watchdog: main process 8503 forked ok
+[Tue Sep 20 18:47:19.539 2016] [8503] listening on all interfaces, port=9312
+[Tue Sep 20 18:47:19.539 2016] [8503] listening on all interfaces, port=9306
+[Tue Sep 20 18:47:19.545 2016] [8503] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Tue Sep 20 18:47:19.545 2016] [8503] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Tue Sep 20 18:47:19.545 2016] [8503] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Tue Sep 20 18:47:19.545 2016] [8503] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Tue Sep 20 18:47:19.545 2016] [8503] binlog: finished replaying total 1 in 0.000 sec
+[Tue Sep 20 18:47:19.546 2016] [8503] accepting connections
+[Tue Sep 20 18:53:28.022 2016] [8503] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 20 18:53:28.043 2016] [8504] rotating index 'artical': started
+[Tue Sep 20 18:53:28.047 2016] [8504] rotating index 'artical': success
+[Tue Sep 20 18:53:28.048 2016] [8504] rotating index: all indexes done
+[Tue Sep 20 19:00:13.569 2016] [8767] watchdog: main process 8768 forked ok
+[Tue Sep 20 19:00:13.572 2016] [8768] listening on all interfaces, port=9312
+[Tue Sep 20 19:00:13.572 2016] [8768] listening on all interfaces, port=9306
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Tue Sep 20 19:00:13.577 2016] [8768] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Tue Sep 20 19:00:13.577 2016] [8768] binlog: finished replaying total 2 in 0.000 sec
+[Tue Sep 20 19:00:13.578 2016] [8768] accepting connections
+[Wed Sep 21 09:48:48.942 2016] [22412] watchdog: main process 22413 forked ok
+[Wed Sep 21 09:48:48.952 2016] [22413] listening on all interfaces, port=9312
+[Wed Sep 21 09:48:48.953 2016] [22413] listening on all interfaces, port=9306
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 09:48:48.969 2016] [22413] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:48:48.969 2016] [22413] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Wed Sep 21 09:48:48.980 2016] [22413] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 09:48:48.980 2016] [22413] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:48:48.981 2016] [22413] binlog: finished replaying total 3 in 0.012 sec
+[Wed Sep 21 09:48:48.981 2016] [22413] accepting connections
+[Wed Sep 21 09:49:15.224 2016] [22439] watchdog: main process 22440 forked ok
+[Wed Sep 21 09:49:15.229 2016] [22440] listening on all interfaces, port=9312
+[Wed Sep 21 09:49:15.229 2016] [22440] listening on all interfaces, port=9306
+[Wed Sep 21 09:49:15.234 2016] [22440] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 09:49:15.234 2016] [22440] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Wed Sep 21 09:49:15.234 2016] [22440] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Wed Sep 21 09:49:15.235 2016] [22440] binlog: finished replaying total 4 in 0.000 sec
+[Wed Sep 21 09:49:15.236 2016] [22440] accepting connections
+[Wed Sep 21 10:00:44.162 2016] [22635] watchdog: main process 22636 forked ok
+[Wed Sep 21 10:00:44.169 2016] [22636] listening on all interfaces, port=9312
+[Wed Sep 21 10:00:44.169 2016] [22636] listening on all interfaces, port=9306
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 10:00:44.174 2016] [22636] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replaying log /usr/local/sphinx/var/data/binlog.005
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:00:44.174 2016] [22636] binlog: finished replaying /usr/local/sphinx/var/data/binlog.005; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:00:44.175 2016] [22636] binlog: finished replaying total 5 in 0.000 sec
+[Wed Sep 21 10:00:44.175 2016] [22636] accepting connections
+[Wed Sep 21 10:23:50.250 2016] [22951] watchdog: main process 22952 forked ok
+[Wed Sep 21 10:23:50.256 2016] [22952] listening on all interfaces, port=9312
+[Wed Sep 21 10:23:50.256 2016] [22952] listening on all interfaces, port=9306
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 10:23:50.261 2016] [22952] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replaying log /usr/local/sphinx/var/data/binlog.005
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying /usr/local/sphinx/var/data/binlog.005; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replaying log /usr/local/sphinx/var/data/binlog.006
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying /usr/local/sphinx/var/data/binlog.006; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:23:50.261 2016] [22952] binlog: finished replaying total 6 in 0.000 sec
+[Wed Sep 21 10:23:50.262 2016] [22952] accepting connections
+[Wed Sep 21 10:56:12.651 2016] [23410] watchdog: main process 23411 forked ok
+[Wed Sep 21 10:56:12.655 2016] [23411] listening on all interfaces, port=9312
+[Wed Sep 21 10:56:12.656 2016] [23411] listening on all interfaces, port=9306
+[Wed Sep 21 10:56:12.660 2016] [23411] WARNING: index 'users_inc': preload: failed to open /usr/local/sphinx/var/data/users_inc.sph: No such file or directory; NOT SERVING
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 10:56:12.661 2016] [23411] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.005
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.005; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.006
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.006; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replaying log /usr/local/sphinx/var/data/binlog.007
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying /usr/local/sphinx/var/data/binlog.007; 0.0 MB in 0.000 sec
+[Wed Sep 21 10:56:12.661 2016] [23411] binlog: finished replaying total 7 in 0.000 sec
+[Wed Sep 21 10:56:12.662 2016] [23411] accepting connections
+[Wed Sep 21 11:06:54.430 2016] [23583] watchdog: main process 23584 forked ok
+[Wed Sep 21 11:06:54.436 2016] [23584] listening on all interfaces, port=9312
+[Wed Sep 21 11:06:54.436 2016] [23584] listening on all interfaces, port=9306
+[Wed Sep 21 11:06:54.440 2016] [23584] WARNING: index 'users_inc': preload: failed to open /usr/local/sphinx/var/data/users_inc.sph: No such file or directory; NOT SERVING
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 11:06:54.441 2016] [23584] WARNING: binlog: index rt: missing; tids 1 to 2 skipped!
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replay stats: 2 rows in 2 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.005
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.005; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.006
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.441 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.006; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.007
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.007; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: replaying log /usr/local/sphinx/var/data/binlog.008
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: finished replaying /usr/local/sphinx/var/data/binlog.008; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:06:54.442 2016] [23584] binlog: finished replaying total 8 in 0.000 sec
+[Wed Sep 21 11:06:54.442 2016] [23584] accepting connections
+[Wed Sep 21 11:21:15.409 2016] [23839] watchdog: main process 23840 forked ok
+[Wed Sep 21 11:21:15.412 2016] [23840] listening on all interfaces, port=9312
+[Wed Sep 21 11:21:15.413 2016] [23840] listening on all interfaces, port=9306
+[Wed Sep 21 11:21:15.415 2016] [23840] WARNING: index 'users': preload: failed to open /usr/local/sphinx/var/data/users.sph: No such file or directory; NOT SERVING
+[Wed Sep 21 11:21:15.415 2016] [23840] WARNING: index 'users_inc': preload: failed to open /usr/local/sphinx/var/data/users_inc.sph: No such file or directory; NOT SERVING
+[Wed Sep 21 11:21:15.417 2016] [23840] accepting connections
+[Wed Sep 21 11:25:35.051 2016] [23899] watchdog: main process 23900 forked ok
+[Wed Sep 21 11:25:35.057 2016] [23900] listening on all interfaces, port=9312
+[Wed Sep 21 11:25:35.057 2016] [23900] listening on all interfaces, port=9306
+[Wed Sep 21 11:25:35.061 2016] [23900] WARNING: index 'users_inc': preload: failed to open /usr/local/sphinx/var/data/users_inc.sph: No such file or directory; NOT SERVING
+[Wed Sep 21 11:25:35.062 2016] [23900] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 11:25:35.062 2016] [23900] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:25:35.062 2016] [23900] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:25:35.062 2016] [23900] binlog: finished replaying total 1 in 0.000 sec
+[Wed Sep 21 11:25:35.063 2016] [23900] accepting connections
+[Wed Sep 21 11:31:20.062 2016] [24008] watchdog: main process 24009 forked ok
+[Wed Sep 21 11:31:20.065 2016] [24009] listening on all interfaces, port=9312
+[Wed Sep 21 11:31:20.066 2016] [24009] listening on all interfaces, port=9306
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 11:31:20.075 2016] [24009] binlog: finished replaying total 2 in 0.000 sec
+[Wed Sep 21 11:31:20.077 2016] [24009] accepting connections
+[Wed Sep 21 14:04:37.637 2016] [24009] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 21 14:04:37.644 2016] [24010] rotating index 'users': started
+[Wed Sep 21 14:04:37.648 2016] [24010] rotating index 'users': success
+[Wed Sep 21 14:04:37.650 2016] [24010] rotating index: all indexes done
+[Wed Sep 21 15:09:29.773 2016] [26958] watchdog: main process 26959 forked ok
+[Wed Sep 21 15:09:29.778 2016] [26959] listening on all interfaces, port=9312
+[Wed Sep 21 15:09:29.780 2016] [26959] listening on all interfaces, port=9306
+[Wed Sep 21 15:09:29.795 2016] [26959] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 15:09:29.795 2016] [26959] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 15:09:29.795 2016] [26959] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 15:09:29.796 2016] [26959] binlog: finished replaying total 1 in 0.000 sec
+[Wed Sep 21 15:09:29.796 2016] [26959] accepting connections
+[Wed Sep 21 18:52:22.669 2016] [29960] watchdog: main process 29961 forked ok
+[Wed Sep 21 18:52:22.672 2016] [29961] listening on all interfaces, port=9312
+[Wed Sep 21 18:52:22.673 2016] [29961] listening on all interfaces, port=9306
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: index articals_rt: recovered from tid 0 to tid 1
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: replay stats: 9 rows in 1 commits; 0 updates, 0 reconfigure; 1 indexes
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Wed Sep 21 18:52:22.689 2016] [29961] binlog: finished replaying total 2 in 0.000 sec
+[Wed Sep 21 18:52:22.690 2016] [29961] accepting connections
+[Thu Sep 22 18:52:22.790 2016] [29964] rt: index articals_rt: ramchunk saved ok (mode=periodic, last TID=0, current TID=1, ram=0.006 Mb, time delta=86400 sec, took=0.002 sec)
+------- FATAL: CRASH DUMP -------
+[Mon Sep 26 15:18:41.407 2016] [29961]
+
+--- crashed SphinxAPI request dump ---
+AAABHgAAAKAAAAAAAAAAAQAAAEAAAAAAAAAAFAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAALQGdyb3VwIGRlc2MAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASoAAAAAAAAAAAAAAAAAAAAA
+--- request dump end ---
+Sphinx 2.2.11-id64-release (95ae9a6)
+Handling signal 11
+-------------- backtrace begins here ---------------
+Program compiled with gcc 4.4.6
+Configured with flags:  '--prefix' '/usr/local/sphinx'
+Host OS is Linux backend.t.kankan.com 2.6.32-220.el6.x86_64 #1 SMP Tue Dec 6 19:48:22 GMT 2011 x86_64 x86_64 x86_64 GNU/Linux
+Stack bottom = 0x7f9f25e52dbf, thread stack size = 0x100000
+Trying manual backtrace:
+Something wrong with thread stack, manual backtrace may be incorrect (fp=0x7f9f25e52dbf)
+Stack looks OK, attempting backtrace.
+0x0
+Something wrong in frame pointers, manual backtrace failed (fp=0)
+Trying system backtrace:
+begin of system symbols:
+./searchd(_Z12sphBacktraceib+0x9b)[0x634ddb]
+./searchd(_ZN16SphCrashLogger_c11HandleCrashEi+0x1b4)[0x4aff44]
+/lib64/libpthread.so.0[0x3bde60f4a0]
+./searchd[0x4cd1d0]
+./searchd(_ZN15SearchHandler_c9RunSubsetEii+0x3159)[0x500619]
+./searchd(_ZN15SearchHandler_c10RunQueriesEv+0x22)[0x501962]
+./searchd(_Z19HandleCommandSearchiiR13InputBuffer_cP9ThdDesc_t+0x1aa)[0x507cfa]
+./searchd(_Z18HandleClientSphinxiPKcP9ThdDesc_t+0x660)[0x509400]
+./searchd(_Z13HandlerThreadPv+0x34)[0x5095a4]
+./searchd(_ZN16SphCrashLogger_c13ThreadWrapperEPv+0x42)[0x4adca2]
+./searchd(_Z20sphThreadProcWrapperPv+0x19)[0x63f7d9]
+/lib64/libpthread.so.0[0x3bde6077f1]
+/lib64/libc.so.6(clone+0x6d)[0x3bde2e570d]
+-------------- backtrace ends here ---------------
+Please, create a bug report in our bug tracker (http://sphinxsearch.com/bugs) and attach there:
+a) searchd log, b) searchd binary, c) searchd symbols.
+Look into the chapter 'Reporting bugs' in the documentation
+(/usr/share/doc/sphinx/sphinx.txt or http://sphinxsearch.com/docs/current.html#reporting-bugs)
+--- BT to source lines (depth 13): ---
+/root/src/sphinx-2.2.11-release/src/sphinxutils.cpp:2191
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2196
+??:0
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:6451
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:10879
+/root/src/sphinx-2.2.11-release/src/sphinxstd.h:967
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:11514
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:14871
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:22710
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2274
+/root/src/sphinx-2.2.11-release/src/sphinxstd.cpp:1066
+??:0
+??:0
+--- BT to source lines finished ---
+--- 1 active threads ---
+thd 0, proto sphinxapi, state query, command search
+------- CRASH DUMP END -------
+[Mon Sep 26 15:18:41.788 2016] [29960] watchdog: main process 29961 crashed via CRASH_EXIT (exit code 2), will be restarted
+[Mon Sep 26 15:18:41.791 2016] [29960] watchdog: main process 30111 forked ok
+[Mon Sep 26 15:18:41.825 2016] [30111] listening on all interfaces, port=9312
+[Mon Sep 26 15:18:41.826 2016] [30111] listening on all interfaces, port=9306
+[Mon Sep 26 15:18:41.884 2016] [30111] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Mon Sep 26 15:18:41.892 2016] [30111] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:18:41.892 2016] [30111] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:18:41.892 2016] [30111] binlog: finished replaying total 1 in 0.008 sec
+[Mon Sep 26 15:18:41.898 2016] [30111] accepting connections
+------- FATAL: CRASH DUMP -------
+[Mon Sep 26 15:19:06.937 2016] [30111]
+
+--- crashed SphinxAPI request dump ---
+AAABHgAAAKAAAAAAAAAAAQAAAEAAAAAAAAAAFAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAALQGdyb3VwIGRlc2MAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASoAAAAAAAAAAAAAAAAAAAAA
+--- request dump end ---
+Sphinx 2.2.11-id64-release (95ae9a6)
+Handling signal 11
+-------------- backtrace begins here ---------------
+Program compiled with gcc 4.4.6
+Configured with flags:  '--prefix' '/usr/local/sphinx'
+Host OS is Linux backend.t.kankan.com 2.6.32-220.el6.x86_64 #1 SMP Tue Dec 6 19:48:22 GMT 2011 x86_64 x86_64 x86_64 GNU/Linux
+Stack bottom = 0x7f9f25e52dbf, thread stack size = 0x100000
+Trying manual backtrace:
+Something wrong with thread stack, manual backtrace may be incorrect (fp=0x7f9f25e52dbf)
+Stack looks OK, attempting backtrace.
+0x0
+Something wrong in frame pointers, manual backtrace failed (fp=0)
+Trying system backtrace:
+begin of system symbols:
+./searchd(_Z12sphBacktraceib+0x9b)[0x634ddb]
+./searchd(_ZN16SphCrashLogger_c11HandleCrashEi+0x1b4)[0x4aff44]
+/lib64/libpthread.so.0[0x3bde60f4a0]
+./searchd[0x4cd1d0]
+./searchd(_ZN15SearchHandler_c9RunSubsetEii+0x3159)[0x500619]
+./searchd(_ZN15SearchHandler_c10RunQueriesEv+0x22)[0x501962]
+./searchd(_Z19HandleCommandSearchiiR13InputBuffer_cP9ThdDesc_t+0x1aa)[0x507cfa]
+./searchd(_Z18HandleClientSphinxiPKcP9ThdDesc_t+0x660)[0x509400]
+./searchd(_Z13HandlerThreadPv+0x34)[0x5095a4]
+./searchd(_ZN16SphCrashLogger_c13ThreadWrapperEPv+0x42)[0x4adca2]
+./searchd(_Z20sphThreadProcWrapperPv+0x19)[0x63f7d9]
+/lib64/libpthread.so.0[0x3bde6077f1]
+/lib64/libc.so.6(clone+0x6d)[0x3bde2e570d]
+-------------- backtrace ends here ---------------
+Please, create a bug report in our bug tracker (http://sphinxsearch.com/bugs) and attach there:
+a) searchd log, b) searchd binary, c) searchd symbols.
+Look into the chapter 'Reporting bugs' in the documentation
+(/usr/share/doc/sphinx/sphinx.txt or http://sphinxsearch.com/docs/current.html#reporting-bugs)
+--- BT to source lines (depth 13): ---
+/root/src/sphinx-2.2.11-release/src/sphinxutils.cpp:2191
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2196
+??:0
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:6451
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:10879
+/root/src/sphinx-2.2.11-release/src/sphinxstd.h:967
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:11514
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:14871
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:22710
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2274
+/root/src/sphinx-2.2.11-release/src/sphinxstd.cpp:1066
+??:0
+??:0
+--- BT to source lines finished ---
+--- 1 active threads ---
+thd 0, proto sphinxapi, state query, command search
+------- CRASH DUMP END -------
+[Mon Sep 26 15:19:07.042 2016] [29960] watchdog: main process 30111 crashed via CRASH_EXIT (exit code 2), will be restarted
+[Mon Sep 26 15:19:07.043 2016] [29960] watchdog: main process 30132 forked ok
+[Mon Sep 26 15:19:07.049 2016] [30132] listening on all interfaces, port=9312
+[Mon Sep 26 15:19:07.049 2016] [30132] listening on all interfaces, port=9306
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:19:07.056 2016] [30132] binlog: finished replaying total 2 in 0.000 sec
+[Mon Sep 26 15:19:07.057 2016] [30132] accepting connections
+------- FATAL: CRASH DUMP -------
+[Mon Sep 26 15:19:26.968 2016] [30132]
+
+--- crashed SphinxAPI request dump ---
+AAABHgAAAKAAAAAAAAAAAQAAAEAAAAAAAAAAFAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAALQGdyb3VwIGRlc2MAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASoAAAAAAAAAAAAAAAAAAAAA
+--- request dump end ---
+Sphinx 2.2.11-id64-release (95ae9a6)
+Handling signal 11
+-------------- backtrace begins here ---------------
+Program compiled with gcc 4.4.6
+Configured with flags:  '--prefix' '/usr/local/sphinx'
+Host OS is Linux backend.t.kankan.com 2.6.32-220.el6.x86_64 #1 SMP Tue Dec 6 19:48:22 GMT 2011 x86_64 x86_64 x86_64 GNU/Linux
+Stack bottom = 0x7f9f25e52dbf, thread stack size = 0x100000
+Trying manual backtrace:
+Something wrong with thread stack, manual backtrace may be incorrect (fp=0x7f9f25e52dbf)
+Stack looks OK, attempting backtrace.
+0x0
+Something wrong in frame pointers, manual backtrace failed (fp=0)
+Trying system backtrace:
+begin of system symbols:
+./searchd(_Z12sphBacktraceib+0x9b)[0x634ddb]
+./searchd(_ZN16SphCrashLogger_c11HandleCrashEi+0x1b4)[0x4aff44]
+/lib64/libpthread.so.0[0x3bde60f4a0]
+./searchd[0x4cd1d0]
+./searchd(_ZN15SearchHandler_c9RunSubsetEii+0x3159)[0x500619]
+./searchd(_ZN15SearchHandler_c10RunQueriesEv+0x22)[0x501962]
+./searchd(_Z19HandleCommandSearchiiR13InputBuffer_cP9ThdDesc_t+0x1aa)[0x507cfa]
+./searchd(_Z18HandleClientSphinxiPKcP9ThdDesc_t+0x660)[0x509400]
+./searchd(_Z13HandlerThreadPv+0x34)[0x5095a4]
+./searchd(_ZN16SphCrashLogger_c13ThreadWrapperEPv+0x42)[0x4adca2]
+./searchd(_Z20sphThreadProcWrapperPv+0x19)[0x63f7d9]
+/lib64/libpthread.so.0[0x3bde6077f1]
+/lib64/libc.so.6(clone+0x6d)[0x3bde2e570d]
+-------------- backtrace ends here ---------------
+Please, create a bug report in our bug tracker (http://sphinxsearch.com/bugs) and attach there:
+a) searchd log, b) searchd binary, c) searchd symbols.
+Look into the chapter 'Reporting bugs' in the documentation
+(/usr/share/doc/sphinx/sphinx.txt or http://sphinxsearch.com/docs/current.html#reporting-bugs)
+--- BT to source lines (depth 13): ---
+/root/src/sphinx-2.2.11-release/src/sphinxutils.cpp:2191
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2196
+??:0
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:6451
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:10879
+/root/src/sphinx-2.2.11-release/src/sphinxstd.h:967
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:11514
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:14871
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:22710
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2274
+/root/src/sphinx-2.2.11-release/src/sphinxstd.cpp:1066
+??:0
+??:0
+--- BT to source lines finished ---
+--- 1 active threads ---
+thd 0, proto sphinxapi, state query, command search
+------- CRASH DUMP END -------
+[Mon Sep 26 15:19:27.070 2016] [29960] watchdog: main process 30132 crashed via CRASH_EXIT (exit code 2), will be restarted
+[Mon Sep 26 15:19:27.070 2016] [29960] watchdog: main process 30150 forked ok
+[Mon Sep 26 15:19:27.074 2016] [30150] listening on all interfaces, port=9312
+[Mon Sep 26 15:19:27.074 2016] [30150] listening on all interfaces, port=9306
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:19:27.081 2016] [30150] binlog: finished replaying total 3 in 0.000 sec
+[Mon Sep 26 15:19:27.082 2016] [30150] accepting connections
+------- FATAL: CRASH DUMP -------
+[Mon Sep 26 15:20:28.362 2016] [30150]
+
+--- crashed SphinxAPI request dump ---
+AAABHgAAAKAAAAAAAAAAAQAAAEAAAAAAAAAAFAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAALQGdyb3VwIGRlc2MAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASoAAAAAAAAAAAAAAAAAAAAA
+--- request dump end ---
+Sphinx 2.2.11-id64-release (95ae9a6)
+Handling signal 11
+-------------- backtrace begins here ---------------
+Program compiled with gcc 4.4.6
+Configured with flags:  '--prefix' '/usr/local/sphinx'
+Host OS is Linux backend.t.kankan.com 2.6.32-220.el6.x86_64 #1 SMP Tue Dec 6 19:48:22 GMT 2011 x86_64 x86_64 x86_64 GNU/Linux
+Stack bottom = 0x7f9f25e52dbf, thread stack size = 0x100000
+Trying manual backtrace:
+Something wrong with thread stack, manual backtrace may be incorrect (fp=0x7f9f25e52dbf)
+Stack looks OK, attempting backtrace.
+0x0
+Something wrong in frame pointers, manual backtrace failed (fp=0)
+Trying system backtrace:
+begin of system symbols:
+./searchd(_Z12sphBacktraceib+0x9b)[0x634ddb]
+./searchd(_ZN16SphCrashLogger_c11HandleCrashEi+0x1b4)[0x4aff44]
+/lib64/libpthread.so.0[0x3bde60f4a0]
+./searchd[0x4cd1d0]
+./searchd(_ZN15SearchHandler_c9RunSubsetEii+0x3159)[0x500619]
+./searchd(_ZN15SearchHandler_c10RunQueriesEv+0x22)[0x501962]
+./searchd(_Z19HandleCommandSearchiiR13InputBuffer_cP9ThdDesc_t+0x1aa)[0x507cfa]
+./searchd(_Z18HandleClientSphinxiPKcP9ThdDesc_t+0x660)[0x509400]
+./searchd(_Z13HandlerThreadPv+0x34)[0x5095a4]
+./searchd(_ZN16SphCrashLogger_c13ThreadWrapperEPv+0x42)[0x4adca2]
+./searchd(_Z20sphThreadProcWrapperPv+0x19)[0x63f7d9]
+/lib64/libpthread.so.0[0x3bde6077f1]
+/lib64/libc.so.6(clone+0x6d)[0x3bde2e570d]
+-------------- backtrace ends here ---------------
+Please, create a bug report in our bug tracker (http://sphinxsearch.com/bugs) and attach there:
+a) searchd log, b) searchd binary, c) searchd symbols.
+Look into the chapter 'Reporting bugs' in the documentation
+(/usr/share/doc/sphinx/sphinx.txt or http://sphinxsearch.com/docs/current.html#reporting-bugs)
+--- BT to source lines (depth 13): ---
+/root/src/sphinx-2.2.11-release/src/sphinxutils.cpp:2191
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2196
+??:0
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:6451
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:10879
+/root/src/sphinx-2.2.11-release/src/sphinxstd.h:967
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:11514
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:14871
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:22710
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2274
+/root/src/sphinx-2.2.11-release/src/sphinxstd.cpp:1066
+??:0
+??:0
+--- BT to source lines finished ---
+--- 1 active threads ---
+thd 0, proto sphinxapi, state query, command search
+------- CRASH DUMP END -------
+[Mon Sep 26 15:20:28.473 2016] [29960] watchdog: main process 30150 crashed via CRASH_EXIT (exit code 2), will be restarted
+[Mon Sep 26 15:20:28.474 2016] [29960] watchdog: main process 30188 forked ok
+[Mon Sep 26 15:20:28.478 2016] [30188] listening on all interfaces, port=9312
+[Mon Sep 26 15:20:28.479 2016] [30188] listening on all interfaces, port=9306
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:28.485 2016] [30188] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Mon Sep 26 15:20:28.486 2016] [30188] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:28.486 2016] [30188] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:28.486 2016] [30188] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Mon Sep 26 15:20:28.486 2016] [30188] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:28.486 2016] [30188] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:28.486 2016] [30188] binlog: finished replaying total 4 in 0.000 sec
+[Mon Sep 26 15:20:28.487 2016] [30188] accepting connections
+------- FATAL: CRASH DUMP -------
+[Mon Sep 26 15:20:49.534 2016] [30188]
+
+--- crashed SphinxAPI request dump ---
+AAABHgAAAKAAAAAAAAAAAQAAAEAAAAAAAAAAFAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gAAAALQGdyb3VwIGRlc2MAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASoAAAAAAAAAAAAAAAAAAAAA
+--- request dump end ---
+Sphinx 2.2.11-id64-release (95ae9a6)
+Handling signal 11
+-------------- backtrace begins here ---------------
+Program compiled with gcc 4.4.6
+Configured with flags:  '--prefix' '/usr/local/sphinx'
+Host OS is Linux backend.t.kankan.com 2.6.32-220.el6.x86_64 #1 SMP Tue Dec 6 19:48:22 GMT 2011 x86_64 x86_64 x86_64 GNU/Linux
+Stack bottom = 0x7f9f25e52dbf, thread stack size = 0x100000
+Trying manual backtrace:
+Something wrong with thread stack, manual backtrace may be incorrect (fp=0x7f9f25e52dbf)
+Stack looks OK, attempting backtrace.
+0x0
+Something wrong in frame pointers, manual backtrace failed (fp=0)
+Trying system backtrace:
+begin of system symbols:
+./searchd(_Z12sphBacktraceib+0x9b)[0x634ddb]
+./searchd(_ZN16SphCrashLogger_c11HandleCrashEi+0x1b4)[0x4aff44]
+/lib64/libpthread.so.0[0x3bde60f4a0]
+./searchd[0x4cd1d0]
+./searchd(_ZN15SearchHandler_c9RunSubsetEii+0x3159)[0x500619]
+./searchd(_ZN15SearchHandler_c10RunQueriesEv+0x22)[0x501962]
+./searchd(_Z19HandleCommandSearchiiR13InputBuffer_cP9ThdDesc_t+0x1aa)[0x507cfa]
+./searchd(_Z18HandleClientSphinxiPKcP9ThdDesc_t+0x660)[0x509400]
+./searchd(_Z13HandlerThreadPv+0x34)[0x5095a4]
+./searchd(_ZN16SphCrashLogger_c13ThreadWrapperEPv+0x42)[0x4adca2]
+./searchd(_Z20sphThreadProcWrapperPv+0x19)[0x63f7d9]
+/lib64/libpthread.so.0[0x3bde6077f1]
+/lib64/libc.so.6(clone+0x6d)[0x3bde2e570d]
+-------------- backtrace ends here ---------------
+Please, create a bug report in our bug tracker (http://sphinxsearch.com/bugs) and attach there:
+a) searchd log, b) searchd binary, c) searchd symbols.
+Look into the chapter 'Reporting bugs' in the documentation
+(/usr/share/doc/sphinx/sphinx.txt or http://sphinxsearch.com/docs/current.html#reporting-bugs)
+--- BT to source lines (depth 13): ---
+/root/src/sphinx-2.2.11-release/src/sphinxutils.cpp:2191
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2196
+??:0
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:6451
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:10879
+/root/src/sphinx-2.2.11-release/src/sphinxstd.h:967
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:11514
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:14871
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:22710
+/root/src/sphinx-2.2.11-release/src/searchd.cpp:2274
+/root/src/sphinx-2.2.11-release/src/sphinxstd.cpp:1066
+??:0
+??:0
+--- BT to source lines finished ---
+--- 1 active threads ---
+thd 0, proto sphinxapi, state query, command search
+------- CRASH DUMP END -------
+[Mon Sep 26 15:20:49.635 2016] [29960] watchdog: main process 30188 crashed via CRASH_EXIT (exit code 2), will be restarted
+[Mon Sep 26 15:20:49.636 2016] [29960] watchdog: main process 30199 forked ok
+[Mon Sep 26 15:20:49.640 2016] [30199] listening on all interfaces, port=9312
+[Mon Sep 26 15:20:49.640 2016] [30199] listening on all interfaces, port=9306
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: replaying log /usr/local/sphinx/var/data/binlog.001
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: finished replaying /usr/local/sphinx/var/data/binlog.001; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: replaying log /usr/local/sphinx/var/data/binlog.002
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: finished replaying /usr/local/sphinx/var/data/binlog.002; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: replaying log /usr/local/sphinx/var/data/binlog.003
+[Mon Sep 26 15:20:49.647 2016] [30199] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: finished replaying /usr/local/sphinx/var/data/binlog.003; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: replaying log /usr/local/sphinx/var/data/binlog.004
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: finished replaying /usr/local/sphinx/var/data/binlog.004; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: replaying log /usr/local/sphinx/var/data/binlog.005
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: finished replaying /usr/local/sphinx/var/data/binlog.005; 0.0 MB in 0.000 sec
+[Mon Sep 26 15:20:49.648 2016] [30199] binlog: finished replaying total 5 in 0.000 sec
+[Mon Sep 26 15:20:49.649 2016] [30199] accepting connections
+[Tue Sep 27 17:02:30.614 2016] [30199] caught SIGTERM, shutting down
+[Tue Sep 27 17:02:30.643 2016] [30199] rt: index articals_rt: ramchunk saved in 0.013 sec
+[Tue Sep 27 17:02:30.711 2016] [30199] shutdown complete
+[Tue Sep 27 17:02:30.715 2016] [29960] watchdog: main process 30199 exited cleanly (exit code 0), shutting down
+[Tue Sep 27 17:04:06.249 2016] [20054] watchdog: main process 20055 forked ok
+[Tue Sep 27 17:04:06.253 2016] [20055] listening on all interfaces, port=9312
+[Tue Sep 27 17:04:06.254 2016] [20055] listening on all interfaces, port=9306
+[Tue Sep 27 17:04:06.271 2016] [20055] WARNING: index 'articals': preload: failed to open /usr/local/sphinx/var/data/articals.sps: No such file or directory; NOT SERVING
+[Tue Sep 27 17:04:06.315 2016] [20055] accepting connections
+[Tue Sep 27 17:06:03.878 2016] [20055] caught SIGTERM, shutting down
+[Tue Sep 27 17:06:06.932 2016] [20055] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Tue Sep 27 17:06:06.955 2016] [20055] shutdown complete
+[Tue Sep 27 17:06:06.957 2016] [20054] watchdog: main process 20055 exited cleanly (exit code 0), shutting down
+[Tue Sep 27 17:16:54.179 2016] [20234] watchdog: main process 20235 forked ok
+[Tue Sep 27 17:16:54.183 2016] [20235] listening on all interfaces, port=9312
+[Tue Sep 27 17:16:54.183 2016] [20235] listening on all interfaces, port=9306
+[Tue Sep 27 17:16:54.191 2016] [20235] accepting connections
+[Tue Sep 27 17:18:10.028 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:18:10.031 2016] [20236] rotating index 'articals': started
+[Tue Sep 27 17:18:10.034 2016] [20236] rotating index 'articals': success
+[Tue Sep 27 17:18:10.035 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:28:59.292 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:28:59.303 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:28:59.306 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:28:59.307 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:34:00.753 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:34:00.777 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:34:00.780 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:34:00.780 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:36:38.338 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:36:38.355 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:36:38.357 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:36:38.358 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:38:25.457 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:38:25.495 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:38:25.498 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:38:25.499 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:39:42.926 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:39:42.945 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:39:42.948 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:39:42.948 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:40:23.595 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:40:23.624 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:40:23.626 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:40:23.627 2016] [20236] rotating index: all indexes done
+[Tue Sep 27 17:41:38.208 2016] [20235] caught SIGHUP (seamless=1, in queue=1)
+[Tue Sep 27 17:41:38.252 2016] [20236] rotating index 'users': started
+[Tue Sep 27 17:41:38.255 2016] [20236] rotating index 'users': success
+[Tue Sep 27 17:41:38.255 2016] [20236] rotating index: all indexes done
+[Wed Sep 28 15:54:43.353 2016] [20235] caught SIGTERM, shutting down
+[Wed Sep 28 15:54:43.396 2016] [20235] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Wed Sep 28 15:54:43.487 2016] [20235] shutdown complete
+[Wed Sep 28 15:54:43.491 2016] [20234] watchdog: main process 20235 exited cleanly (exit code 0), shutting down
+[Wed Sep 28 16:14:27.591 2016] [6951] watchdog: main process 6952 forked ok
+[Wed Sep 28 16:14:27.596 2016] [6952] listening on all interfaces, port=9312
+[Wed Sep 28 16:14:27.596 2016] [6952] listening on all interfaces, port=9306
+[Wed Sep 28 16:14:27.605 2016] [6952] accepting connections
+[Wed Sep 28 16:15:44.391 2016] [6978] watchdog: main process 6979 forked ok
+[Wed Sep 28 16:15:44.392 2016] [6979] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Wed Sep 28 16:15:44.393 2016] [6978] watchdog: main process 6979 exited cleanly (exit code 1), shutting down
+[Wed Sep 28 16:18:42.704 2016] [6952] caught SIGTERM, shutting down
+[Wed Sep 28 16:18:45.755 2016] [6952] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Wed Sep 28 16:18:45.758 2016] [6952] shutdown complete
+[Wed Sep 28 16:18:45.762 2016] [6951] watchdog: main process 6952 exited cleanly (exit code 0), shutting down
+[Wed Sep 28 16:18:53.947 2016] [7029] watchdog: main process 7030 forked ok
+[Wed Sep 28 16:18:53.951 2016] [7030] listening on all interfaces, port=9312
+[Wed Sep 28 16:18:53.951 2016] [7030] listening on all interfaces, port=9306
+[Wed Sep 28 16:18:53.960 2016] [7030] accepting connections
+[Wed Sep 28 16:21:02.845 2016] [7030] caught SIGTERM, shutting down
+[Wed Sep 28 16:21:05.895 2016] [7030] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Wed Sep 28 16:21:05.983 2016] [7030] shutdown complete
+[Wed Sep 28 16:21:05.986 2016] [7029] watchdog: main process 7030 exited cleanly (exit code 0), shutting down
+[Wed Sep 28 16:29:15.644 2016] [7190] watchdog: main process 7191 forked ok
+[Wed Sep 28 16:29:15.648 2016] [7191] listening on all interfaces, port=9312
+[Wed Sep 28 16:29:15.648 2016] [7191] listening on all interfaces, port=9306
+[Wed Sep 28 16:29:15.656 2016] [7191] accepting connections
+[Wed Sep 28 16:30:33.107 2016] [7191] caught SIGTERM, shutting down
+[Wed Sep 28 16:30:36.152 2016] [7191] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Wed Sep 28 16:30:36.195 2016] [7191] shutdown complete
+[Wed Sep 28 16:30:36.198 2016] [7190] watchdog: main process 7191 exited cleanly (exit code 0), shutting down
+[Wed Sep 28 16:49:13.934 2016] [7494] watchdog: main process 7495 forked ok
+[Wed Sep 28 16:49:13.938 2016] [7495] listening on all interfaces, port=9312
+[Wed Sep 28 16:49:13.938 2016] [7495] listening on all interfaces, port=9306
+[Wed Sep 28 16:49:13.946 2016] [7495] accepting connections
+[Wed Sep 28 16:50:42.619 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 16:50:42.654 2016] [7496] rotating index 'users': started
+[Wed Sep 28 16:50:42.657 2016] [7496] rotating index 'users': success
+[Wed Sep 28 16:50:42.658 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 16:51:57.170 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 16:51:57.181 2016] [7496] rotating index 'users_inc': started
+[Wed Sep 28 16:51:57.184 2016] [7496] rotating index 'users_inc': success
+[Wed Sep 28 16:51:57.184 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 16:52:04.558 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 16:52:04.601 2016] [7496] rotating index 'users': started
+[Wed Sep 28 16:52:04.604 2016] [7496] rotating index 'users': success
+[Wed Sep 28 16:52:04.605 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 16:58:45.933 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 16:58:45.982 2016] [7496] rotating index 'users_inc': started
+[Wed Sep 28 16:58:45.985 2016] [7496] rotating index 'users_inc': success
+[Wed Sep 28 16:58:45.985 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 16:58:49.972 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 16:58:49.995 2016] [7496] rotating index 'users': started
+[Wed Sep 28 16:58:49.997 2016] [7496] rotating index 'users': success
+[Wed Sep 28 16:58:49.998 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 16:59:56.466 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 16:59:56.495 2016] [7496] rotating index 'users_inc': started
+[Wed Sep 28 16:59:56.498 2016] [7496] rotating index 'users_inc': success
+[Wed Sep 28 16:59:56.498 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 17:00:06.828 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 17:00:06.872 2016] [7496] rotating index 'users': started
+[Wed Sep 28 17:00:06.875 2016] [7496] rotating index 'users': success
+[Wed Sep 28 17:00:06.876 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 17:00:35.042 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 17:00:35.090 2016] [7496] rotating index 'users': started
+[Wed Sep 28 17:00:35.093 2016] [7496] rotating index 'users': success
+[Wed Sep 28 17:00:35.094 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 17:01:53.198 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 17:01:53.236 2016] [7496] rotating index 'users': started
+[Wed Sep 28 17:01:53.238 2016] [7496] rotating index 'users': success
+[Wed Sep 28 17:01:53.239 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 17:08:27.645 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 17:08:27.655 2016] [7496] rotating index 'users_inc': started
+[Wed Sep 28 17:08:27.658 2016] [7496] rotating index 'users_inc': success
+[Wed Sep 28 17:08:27.658 2016] [7496] rotating index 'users': started
+[Wed Sep 28 17:08:27.662 2016] [7496] rotating index 'users': success
+[Wed Sep 28 17:08:27.663 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 17:14:05.069 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 17:14:05.099 2016] [7496] rotating index 'users_inc': started
+[Wed Sep 28 17:14:05.102 2016] [7496] rotating index 'users_inc': success
+[Wed Sep 28 17:14:05.103 2016] [7496] rotating index 'users': started
+[Wed Sep 28 17:14:05.105 2016] [7496] rotating index 'users': success
+[Wed Sep 28 17:14:05.106 2016] [7496] rotating index: all indexes done
+[Wed Sep 28 17:38:10.989 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Wed Sep 28 17:38:11.019 2016] [7496] rotating index 'users_inc': started
+[Wed Sep 28 17:38:11.023 2016] [7496] rotating index 'users_inc': success
+[Wed Sep 28 17:38:11.024 2016] [7496] rotating index 'users': started
+[Wed Sep 28 17:38:11.027 2016] [7496] rotating index 'users': success
+[Wed Sep 28 17:38:11.028 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 09:55:51.578 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 09:55:51.625 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 09:55:51.630 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 09:55:51.631 2016] [7496] rotating index 'users': started
+[Thu Sep 29 09:55:51.634 2016] [7496] rotating index 'users': success
+[Thu Sep 29 09:55:51.636 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 10:10:31.252 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 10:10:31.291 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 10:10:31.295 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 10:10:31.296 2016] [7496] rotating index 'users': started
+[Thu Sep 29 10:10:31.298 2016] [7496] rotating index 'users': success
+[Thu Sep 29 10:10:31.299 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 10:23:10.802 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 10:23:10.830 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 10:23:10.834 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 10:23:10.835 2016] [7496] rotating index 'users': started
+[Thu Sep 29 10:23:10.837 2016] [7496] rotating index 'users': success
+[Thu Sep 29 10:23:10.838 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 10:23:10.841 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 10:23:10.843 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 10:25:40.438 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 10:25:40.462 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 10:25:40.464 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 10:25:40.465 2016] [7496] rotating index 'users': started
+[Thu Sep 29 10:25:40.468 2016] [7496] rotating index 'users': success
+[Thu Sep 29 10:25:40.468 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 10:25:40.471 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 10:25:40.472 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 10:55:31.056 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 10:55:31.085 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 10:55:31.088 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 10:55:31.089 2016] [7496] rotating index 'users': started
+[Thu Sep 29 10:55:31.092 2016] [7496] rotating index 'users': success
+[Thu Sep 29 10:55:31.093 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 10:55:31.096 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 10:55:31.097 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:00:33.475 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:00:33.485 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:00:33.488 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:00:33.488 2016] [7496] rotating index 'users': started
+[Thu Sep 29 11:00:33.491 2016] [7496] rotating index 'users': success
+[Thu Sep 29 11:00:33.492 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 11:00:33.495 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 11:00:33.496 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:12:56.459 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:12:56.496 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:12:56.500 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:12:56.501 2016] [7496] rotating index 'users': started
+[Thu Sep 29 11:12:56.504 2016] [7496] rotating index 'users': success
+[Thu Sep 29 11:12:56.506 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 11:12:56.509 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 11:12:56.510 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:13:57.978 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:13:58.011 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:13:58.015 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:13:58.015 2016] [7496] rotating index 'users': started
+[Thu Sep 29 11:13:58.018 2016] [7496] rotating index 'users': success
+[Thu Sep 29 11:13:58.019 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 11:13:58.021 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 11:13:58.022 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:24:20.385 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:24:20.400 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:24:20.404 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:24:20.405 2016] [7496] rotating index 'users': started
+[Thu Sep 29 11:24:20.408 2016] [7496] rotating index 'users': success
+[Thu Sep 29 11:24:20.409 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 11:24:20.412 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 11:24:20.413 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:25:45.624 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:25:45.657 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:25:45.660 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:25:45.661 2016] [7496] rotating index 'users': started
+[Thu Sep 29 11:25:45.665 2016] [7496] rotating index 'users': success
+[Thu Sep 29 11:25:45.666 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:28:27.880 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:28:27.894 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:28:27.896 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:28:27.897 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:28:43.861 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:28:43.881 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:28:43.884 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:28:43.885 2016] [7496] rotating index 'users': started
+[Thu Sep 29 11:28:43.888 2016] [7496] rotating index 'users': success
+[Thu Sep 29 11:28:43.888 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 11:29:31.633 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 11:29:31.647 2016] [7496] rotating index 'users_inc': started
+[Thu Sep 29 11:29:31.650 2016] [7496] rotating index 'users_inc': success
+[Thu Sep 29 11:29:31.650 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 12:13:39.644 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 12:13:39.667 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 12:13:39.671 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 12:13:39.672 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 14:33:51.384 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 14:33:51.432 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 14:33:51.436 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 14:33:51.437 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 14:37:51.892 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 14:37:51.905 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 14:37:51.912 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 14:37:51.913 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 15:05:46.487 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 15:05:46.501 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 15:05:46.504 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 15:05:46.505 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 15:33:34.916 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 15:33:34.924 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 15:33:34.927 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 15:33:34.927 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 15:35:01.969 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 15:35:01.970 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 15:35:01.973 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 15:35:01.973 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 15:45:07.373 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 15:45:07.414 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 15:45:07.417 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 15:45:07.417 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 15:57:29.439 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 15:57:29.489 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 15:57:29.492 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 15:57:29.492 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 16:01:50.074 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 16:01:50.115 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 16:01:50.117 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 16:01:50.117 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 16:16:32.729 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 16:16:32.758 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 16:16:32.761 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 16:16:32.762 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 16:21:43.600 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 16:21:43.632 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 16:21:43.635 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 16:21:43.636 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 16:28:09.610 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 16:28:09.645 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 16:28:09.648 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 16:28:09.648 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 16:55:04.808 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 16:55:04.817 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 16:55:04.819 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 16:55:04.820 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 16:56:07.252 2016] [7495] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 16:56:07.256 2016] [7496] rotating index 'articals': started
+[Thu Sep 29 16:56:07.259 2016] [7496] rotating index 'articals': success
+[Thu Sep 29 16:56:07.259 2016] [7496] rotating index: all indexes done
+[Thu Sep 29 17:09:24.444 2016] [7495] caught SIGTERM, shutting down
+[Thu Sep 29 17:09:27.494 2016] [7495] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Thu Sep 29 17:09:27.583 2016] [7495] shutdown complete
+[Thu Sep 29 17:09:27.587 2016] [7494] watchdog: main process 7495 exited cleanly (exit code 0), shutting down
+[Thu Sep 29 17:09:31.878 2016] [27960] watchdog: main process 27961 forked ok
+[Thu Sep 29 17:09:31.884 2016] [27961] listening on all interfaces, port=9312
+[Thu Sep 29 17:09:31.885 2016] [27961] listening on all interfaces, port=9306
+[Thu Sep 29 17:09:31.895 2016] [27961] accepting connections
+[Thu Sep 29 17:09:39.924 2016] [27961] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:09:39.962 2016] [27962] rotating index 'articals': started
+[Thu Sep 29 17:09:39.971 2016] [27962] rotating index 'articals': success
+[Thu Sep 29 17:09:39.972 2016] [27962] rotating index: all indexes done
+[Thu Sep 29 17:12:51.406 2016] [27961] caught SIGTERM, shutting down
+[Thu Sep 29 17:12:54.453 2016] [27961] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Thu Sep 29 17:12:54.488 2016] [27961] shutdown complete
+[Thu Sep 29 17:12:54.491 2016] [27960] watchdog: main process 27961 exited cleanly (exit code 0), shutting down
+[Thu Sep 29 17:12:56.685 2016] [28023] watchdog: main process 28024 forked ok
+[Thu Sep 29 17:12:56.690 2016] [28024] listening on all interfaces, port=9312
+[Thu Sep 29 17:12:56.691 2016] [28024] listening on all interfaces, port=9306
+[Thu Sep 29 17:12:56.709 2016] [28024] accepting connections
+[Thu Sep 29 17:13:17.194 2016] [28024] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:13:17.208 2016] [28025] rotating index 'articals': started
+[Thu Sep 29 17:13:17.216 2016] [28025] rotating index 'articals': success
+[Thu Sep 29 17:13:17.217 2016] [28025] rotating index: all indexes done
+[Thu Sep 29 17:14:11.451 2016] [28024] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:14:11.499 2016] [28025] rotating index 'articals': started
+[Thu Sep 29 17:14:11.514 2016] [28025] rotating index 'articals': success
+[Thu Sep 29 17:14:11.515 2016] [28025] rotating index: all indexes done
+[Thu Sep 29 17:28:16.716 2016] [28024] caught SIGTERM, shutting down
+[Thu Sep 29 17:28:16.731 2016] [28024] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Thu Sep 29 17:28:16.784 2016] [28024] shutdown complete
+[Thu Sep 29 17:28:16.787 2016] [28023] watchdog: main process 28024 exited cleanly (exit code 0), shutting down
+[Thu Sep 29 17:28:19.847 2016] [28244] watchdog: main process 28245 forked ok
+[Thu Sep 29 17:28:19.852 2016] [28245] listening on all interfaces, port=9312
+[Thu Sep 29 17:28:19.852 2016] [28245] listening on all interfaces, port=9306
+[Thu Sep 29 17:28:19.868 2016] [28245] accepting connections
+[Thu Sep 29 17:28:23.382 2016] [28245] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:28:23.426 2016] [28246] rotating index 'articals': started
+[Thu Sep 29 17:28:23.429 2016] [28246] rotating index 'articals': success
+[Thu Sep 29 17:28:23.429 2016] [28246] rotating index: all indexes done
+[Thu Sep 29 17:29:50.601 2016] [28245] caught SIGTERM, shutting down
+[Thu Sep 29 17:29:53.343 2016] [28283] watchdog: main process 28284 forked ok
+[Thu Sep 29 17:29:53.343 2016] [28284] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Thu Sep 29 17:29:53.345 2016] [28283] watchdog: main process 28284 exited cleanly (exit code 1), shutting down
+[Thu Sep 29 17:29:53.641 2016] [28245] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Thu Sep 29 17:29:53.735 2016] [28245] shutdown complete
+[Thu Sep 29 17:29:53.737 2016] [28244] watchdog: main process 28245 exited cleanly (exit code 0), shutting down
+[Thu Sep 29 17:29:57.982 2016] [28287] watchdog: main process 28288 forked ok
+[Thu Sep 29 17:29:57.986 2016] [28288] listening on all interfaces, port=9312
+[Thu Sep 29 17:29:57.986 2016] [28288] listening on all interfaces, port=9306
+[Thu Sep 29 17:29:58.003 2016] [28288] accepting connections
+[Thu Sep 29 17:30:04.432 2016] [28288] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:30:04.467 2016] [28289] rotating index 'articals': started
+[Thu Sep 29 17:30:04.470 2016] [28289] rotating index 'articals': success
+[Thu Sep 29 17:30:04.471 2016] [28289] rotating index: all indexes done
+[Thu Sep 29 17:31:38.609 2016] [28288] caught SIGTERM, shutting down
+[Thu Sep 29 17:31:41.649 2016] [28288] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Thu Sep 29 17:31:41.678 2016] [28288] shutdown complete
+[Thu Sep 29 17:31:41.681 2016] [28287] watchdog: main process 28288 exited cleanly (exit code 0), shutting down
+[Thu Sep 29 17:31:42.437 2016] [28340] watchdog: main process 28341 forked ok
+[Thu Sep 29 17:31:42.441 2016] [28341] listening on all interfaces, port=9312
+[Thu Sep 29 17:31:42.441 2016] [28341] listening on all interfaces, port=9306
+[Thu Sep 29 17:31:42.458 2016] [28341] accepting connections
+[Thu Sep 29 17:31:45.595 2016] [28341] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:31:45.614 2016] [28342] rotating index 'articals': started
+[Thu Sep 29 17:31:45.618 2016] [28342] rotating index 'articals': success
+[Thu Sep 29 17:31:45.618 2016] [28342] rotating index: all indexes done
+[Thu Sep 29 17:39:18.602 2016] [28341] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:39:18.621 2016] [28342] rotating index 'articals': started
+[Thu Sep 29 17:39:18.624 2016] [28342] rotating index 'articals': success
+[Thu Sep 29 17:39:18.625 2016] [28342] rotating index: all indexes done
+[Thu Sep 29 17:39:20.140 2016] [28341] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:39:20.179 2016] [28342] rotating index 'articals': started
+[Thu Sep 29 17:39:20.182 2016] [28342] rotating index 'articals': success
+[Thu Sep 29 17:39:20.182 2016] [28342] rotating index: all indexes done
+[Thu Sep 29 17:41:30.792 2016] [28341] caught SIGHUP (seamless=1, in queue=1)
+[Thu Sep 29 17:41:30.799 2016] [28342] rotating index 'articals': started
+[Thu Sep 29 17:41:30.802 2016] [28342] rotating index 'articals': success
+[Thu Sep 29 17:41:30.803 2016] [28342] rotating index: all indexes done
+[Fri Sep 30 09:58:14.758 2016] [28341] caught SIGTERM, shutting down
+[Fri Sep 30 09:58:17.791 2016] [28341] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 09:58:17.882 2016] [28341] shutdown complete
+[Fri Sep 30 09:58:17.886 2016] [28340] watchdog: main process 28341 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 09:58:19.257 2016] [9539] watchdog: main process 9540 forked ok
+[Fri Sep 30 09:58:19.262 2016] [9540] listening on all interfaces, port=9312
+[Fri Sep 30 09:58:19.263 2016] [9540] listening on all interfaces, port=9306
+[Fri Sep 30 09:58:19.280 2016] [9540] accepting connections
+[Fri Sep 30 09:58:21.700 2016] [9540] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 09:58:21.735 2016] [9541] rotating index 'articals': started
+[Fri Sep 30 09:58:21.738 2016] [9541] rotating index 'articals': success
+[Fri Sep 30 09:58:21.739 2016] [9541] rotating index: all indexes done
+[Fri Sep 30 09:59:20.460 2016] [9540] caught SIGTERM, shutting down
+[Fri Sep 30 09:59:23.485 2016] [9540] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 09:59:23.501 2016] [9567] watchdog: main process 9568 forked ok
+[Fri Sep 30 09:59:23.502 2016] [9568] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Fri Sep 30 09:59:23.504 2016] [9567] watchdog: main process 9568 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 09:59:23.505 2016] [9540] shutdown complete
+[Fri Sep 30 09:59:23.507 2016] [9539] watchdog: main process 9540 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 09:59:25.499 2016] [9571] watchdog: main process 9572 forked ok
+[Fri Sep 30 09:59:25.503 2016] [9572] listening on all interfaces, port=9312
+[Fri Sep 30 09:59:25.503 2016] [9572] listening on all interfaces, port=9306
+[Fri Sep 30 09:59:25.520 2016] [9572] accepting connections
+[Fri Sep 30 09:59:27.537 2016] [9572] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 09:59:27.574 2016] [9573] rotating index 'articals': started
+[Fri Sep 30 09:59:27.577 2016] [9573] rotating index 'articals': success
+[Fri Sep 30 09:59:27.577 2016] [9573] rotating index: all indexes done
+[Fri Sep 30 10:00:11.923 2016] [9572] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 10:00:11.958 2016] [9573] rotating index 'articals': started
+[Fri Sep 30 10:00:11.962 2016] [9573] rotating index 'articals': success
+[Fri Sep 30 10:00:11.962 2016] [9573] rotating index: all indexes done
+[Fri Sep 30 10:08:49.151 2016] [9572] caught SIGTERM, shutting down
+[Fri Sep 30 10:08:52.201 2016] [9572] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 10:08:52.274 2016] [9572] shutdown complete
+[Fri Sep 30 10:08:52.277 2016] [9571] watchdog: main process 9572 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 10:09:00.295 2016] [9737] watchdog: main process 9738 forked ok
+[Fri Sep 30 10:09:00.298 2016] [9738] listening on all interfaces, port=9312
+[Fri Sep 30 10:09:00.298 2016] [9738] listening on all interfaces, port=9306
+[Fri Sep 30 10:09:00.310 2016] [9738] rotating index 'articals': success
+[Fri Sep 30 10:09:00.316 2016] [9738] accepting connections
+[Fri Sep 30 10:10:53.878 2016] [9795] watchdog: main process 9796 forked ok
+[Fri Sep 30 10:10:53.879 2016] [9796] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Fri Sep 30 10:10:53.880 2016] [9795] watchdog: main process 9796 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 10:17:49.129 2016] [9738] caught SIGTERM, shutting down
+[Fri Sep 30 10:17:52.187 2016] [9738] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 10:17:52.259 2016] [9738] shutdown complete
+[Fri Sep 30 10:17:52.262 2016] [9737] watchdog: main process 9738 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 10:18:09.328 2016] [9883] watchdog: main process 9884 forked ok
+[Fri Sep 30 10:18:09.331 2016] [9884] listening on all interfaces, port=9312
+[Fri Sep 30 10:18:09.332 2016] [9884] listening on all interfaces, port=9306
+[Fri Sep 30 10:18:09.349 2016] [9884] accepting connections
+[Fri Sep 30 10:19:48.352 2016] [9884] caught SIGTERM, shutting down
+[Fri Sep 30 10:19:51.386 2016] [9884] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 10:19:51.431 2016] [9884] shutdown complete
+[Fri Sep 30 10:19:51.434 2016] [9883] watchdog: main process 9884 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 10:19:57.345 2016] [9921] watchdog: main process 9922 forked ok
+[Fri Sep 30 10:19:57.349 2016] [9922] listening on all interfaces, port=9312
+[Fri Sep 30 10:19:57.349 2016] [9922] listening on all interfaces, port=9306
+[Fri Sep 30 10:19:57.367 2016] [9922] accepting connections
+[Fri Sep 30 10:31:58.229 2016] [9922] caught SIGTERM, shutting down
+[Fri Sep 30 10:32:00.830 2016] [10103] watchdog: main process 10104 forked ok
+[Fri Sep 30 10:32:00.831 2016] [10104] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Fri Sep 30 10:32:00.833 2016] [10103] watchdog: main process 10104 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 10:32:01.245 2016] [9922] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 10:32:01.340 2016] [9922] shutdown complete
+[Fri Sep 30 10:32:01.343 2016] [9921] watchdog: main process 9922 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 10:32:03.793 2016] [10119] watchdog: main process 10120 forked ok
+[Fri Sep 30 10:32:03.798 2016] [10120] listening on all interfaces, port=9312
+[Fri Sep 30 10:32:03.798 2016] [10120] listening on all interfaces, port=9306
+[Fri Sep 30 10:32:03.814 2016] [10120] accepting connections
+[Fri Sep 30 10:34:24.945 2016] [10120] caught SIGTERM, shutting down
+[Fri Sep 30 10:34:24.956 2016] [10120] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 10:34:24.962 2016] [10120] shutdown complete
+[Fri Sep 30 10:34:24.965 2016] [10119] watchdog: main process 10120 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 10:34:29.188 2016] [10152] watchdog: main process 10153 forked ok
+[Fri Sep 30 10:34:29.193 2016] [10153] listening on all interfaces, port=9312
+[Fri Sep 30 10:34:29.193 2016] [10153] listening on all interfaces, port=9306
+[Fri Sep 30 10:34:29.210 2016] [10153] accepting connections
+[Fri Sep 30 10:35:12.789 2016] [10153] caught SIGTERM, shutting down
+[Fri Sep 30 10:35:12.820 2016] [10153] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 10:35:12.888 2016] [10153] shutdown complete
+[Fri Sep 30 10:35:12.890 2016] [10152] watchdog: main process 10153 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 10:35:15.997 2016] [10177] watchdog: main process 10178 forked ok
+[Fri Sep 30 10:35:16.001 2016] [10178] listening on all interfaces, port=9312
+[Fri Sep 30 10:35:16.001 2016] [10178] listening on all interfaces, port=9306
+[Fri Sep 30 10:35:16.017 2016] [10178] accepting connections
+[Fri Sep 30 10:48:12.878 2016] [10178] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 10:48:12.921 2016] [10179] rotating index 'articals': started
+[Fri Sep 30 10:48:12.926 2016] [10179] rotating index 'articals': success
+[Fri Sep 30 10:48:12.927 2016] [10179] rotating index: all indexes done
+[Fri Sep 30 10:48:43.989 2016] [10178] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 10:48:43.998 2016] [10179] rotating index 'articals': started
+[Fri Sep 30 10:48:44.002 2016] [10179] rotating index 'articals': success
+[Fri Sep 30 10:48:44.002 2016] [10179] rotating index: all indexes done
+[Fri Sep 30 10:49:16.757 2016] [10178] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 10:49:16.779 2016] [10179] rotating index 'articals': started
+[Fri Sep 30 10:49:16.782 2016] [10179] rotating index 'articals': success
+[Fri Sep 30 10:49:16.783 2016] [10179] rotating index: all indexes done
+[Fri Sep 30 10:51:39.556 2016] [10178] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 10:51:39.569 2016] [10179] rotating index 'articals': started
+[Fri Sep 30 10:51:39.572 2016] [10179] rotating index 'articals': success
+[Fri Sep 30 10:51:39.573 2016] [10179] rotating index: all indexes done
+[Fri Sep 30 10:52:02.408 2016] [10178] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 10:52:02.411 2016] [10179] rotating index 'articals': started
+[Fri Sep 30 10:52:02.420 2016] [10179] WARNING: index 'articals': wordforms file '/usr/local/sphinx/var/data/wordforms/en.txt' is shared with index 'articals', but tokenizer settings are different
+[Fri Sep 30 10:52:02.436 2016] [10179] rotating index 'articals': success
+[Fri Sep 30 10:52:02.436 2016] [10179] rotating index: all indexes done
+[Fri Sep 30 14:29:26.967 2016] [10178] caught SIGTERM, shutting down
+[Fri Sep 30 14:29:27.016 2016] [10178] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 14:29:27.118 2016] [10178] shutdown complete
+[Fri Sep 30 14:29:27.122 2016] [10177] watchdog: main process 10178 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 14:29:32.216 2016] [13338] watchdog: main process 13339 forked ok
+[Fri Sep 30 14:29:32.221 2016] [13339] listening on all interfaces, port=9312
+[Fri Sep 30 14:29:32.222 2016] [13339] listening on all interfaces, port=9306
+[Fri Sep 30 14:29:32.276 2016] [13339] WARNING: index 'articals_dist': agent 'localhsot:9313:articals': failed to lookup host name 'localhsot' (error=Success) - SKIPPING AGENT
+[Fri Sep 30 14:29:32.278 2016] [13339] accepting connections
+[Fri Sep 30 14:34:30.147 2016] [13434] watchdog: main process 13435 forked ok
+[Fri Sep 30 14:34:30.148 2016] [13435] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Fri Sep 30 14:34:30.149 2016] [13434] watchdog: main process 13435 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 14:34:53.355 2016] [13439] watchdog: main process 13440 forked ok
+[Fri Sep 30 14:34:53.355 2016] [13440] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Fri Sep 30 14:34:53.357 2016] [13439] watchdog: main process 13440 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 14:35:20.646 2016] [13457] watchdog: main process 13458 forked ok
+[Fri Sep 30 14:35:20.649 2016] [13458] listening on all interfaces, port=9313
+[Fri Sep 30 14:35:20.649 2016] [13458] listening on all interfaces, port=9307
+[Fri Sep 30 14:35:20.687 2016] [13458] WARNING: index 'articals': lock: failed to lock /usr/local/sphinx/var/data/articals.spl: Resource temporarily unavailable; NOT SERVING
+[Fri Sep 30 14:35:20.689 2016] [13458] WARNING: index 'users': lock: failed to lock /usr/local/sphinx/var/data/users.spl: Resource temporarily unavailable; NOT SERVING
+[Fri Sep 30 14:35:20.691 2016] [13458] WARNING: index 'users_inc': lock: failed to lock /usr/local/sphinx/var/data/users_inc.spl: Resource temporarily unavailable; NOT SERVING
+[Fri Sep 30 14:35:20.692 2016] [13458] WARNING: index 'articals_rt': preload: failed to lock /usr/local/sphinx/var/data/articals_rt.lock: Resource temporarily unavailable; NOT SERVING
+[Fri Sep 30 14:35:20.705 2016] [13458] WARNING: index 'articals_dist': agent 'localhsot:9312:articals': failed to lookup host name 'localhsot' (error=Success) - SKIPPING AGENT
+[Fri Sep 30 14:35:20.705 2016] [13458] FATAL: failed to lock '/usr/local/sphinx/var/data/binlog.lock': 11 'Resource temporarily unavailable'
+[Fri Sep 30 14:35:20.708 2016] [13457] watchdog: main process 13458 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 14:48:21.252 2016] [13339] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 14:48:21.292 2016] [13340] rotating index 'users_inc': started
+[Fri Sep 30 14:48:21.295 2016] [13340] rotating index 'users_inc': success
+[Fri Sep 30 14:48:21.296 2016] [13340] rotating index 'users': started
+[Fri Sep 30 14:48:21.299 2016] [13340] rotating index 'users': success
+[Fri Sep 30 14:48:21.300 2016] [13340] rotating index 'articals': started
+[Fri Sep 30 14:48:21.312 2016] [13340] rotating index 'articals': success
+[Fri Sep 30 14:48:21.313 2016] [13340] rotating index: all indexes done
+[Fri Sep 30 14:51:52.633 2016] [13339] caught SIGTERM, shutting down
+[Fri Sep 30 14:51:52.662 2016] [13339] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 14:51:52.728 2016] [13339] shutdown complete
+[Fri Sep 30 14:51:52.731 2016] [13338] watchdog: main process 13339 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 14:52:14.141 2016] [13756] watchdog: main process 13757 forked ok
+[Fri Sep 30 14:52:14.144 2016] [13757] listening on all interfaces, port=9312
+[Fri Sep 30 14:52:14.145 2016] [13757] listening on all interfaces, port=9306
+[Fri Sep 30 14:52:14.177 2016] [13757] WARNING: multiple addresses found for 'localhost', using the first one (ip=127.0.0.1)
+[Fri Sep 30 14:52:14.178 2016] [13757] accepting connections
+[Fri Sep 30 14:52:35.232 2016] [13757] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 14:52:35.275 2016] [13758] rotating index 'users_inc': started
+[Fri Sep 30 14:52:35.278 2016] [13758] rotating index 'users_inc': success
+[Fri Sep 30 14:52:35.279 2016] [13758] rotating index 'users': started
+[Fri Sep 30 14:52:35.282 2016] [13758] rotating index 'users': success
+[Fri Sep 30 14:52:35.282 2016] [13758] rotating index 'articals': started
+[Fri Sep 30 14:52:35.294 2016] [13758] rotating index 'articals': success
+[Fri Sep 30 14:52:35.295 2016] [13758] rotating index: all indexes done
+[Fri Sep 30 14:54:13.846 2016] [13757] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 14:54:13.861 2016] [13758] rotating index 'users_inc': started
+[Fri Sep 30 14:54:13.864 2016] [13758] rotating index 'users_inc': success
+[Fri Sep 30 14:54:13.864 2016] [13758] rotating index 'users': started
+[Fri Sep 30 14:54:13.867 2016] [13758] rotating index 'users': success
+[Fri Sep 30 14:54:13.867 2016] [13758] rotating index 'articals': started
+[Fri Sep 30 14:54:13.879 2016] [13758] rotating index 'articals': success
+[Fri Sep 30 14:54:13.880 2016] [13758] rotating index: all indexes done
+[Fri Sep 30 14:58:57.308 2016] [13757] caught SIGHUP (seamless=1, in queue=1)
+[Fri Sep 30 14:58:57.338 2016] [13758] rotating index 'users_inc': started
+[Fri Sep 30 14:58:57.341 2016] [13758] rotating index 'users_inc': success
+[Fri Sep 30 14:58:57.342 2016] [13758] rotating index 'users': started
+[Fri Sep 30 14:58:57.344 2016] [13758] rotating index 'users': success
+[Fri Sep 30 14:58:57.345 2016] [13758] rotating index 'articals': started
+[Fri Sep 30 14:58:57.356 2016] [13758] rotating index 'articals': success
+[Fri Sep 30 14:58:57.357 2016] [13758] rotating index: all indexes done
+[Fri Sep 30 17:07:15.133 2016] [13757] caught SIGTERM, shutting down
+[Fri Sep 30 17:07:15.184 2016] [13757] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 17:07:15.249 2016] [13757] shutdown complete
+[Fri Sep 30 17:07:15.253 2016] [13756] watchdog: main process 13757 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 17:07:17.504 2016] [15680] watchdog: main process 15681 forked ok
+[Fri Sep 30 17:07:17.510 2016] [15681] listening on all interfaces, port=9312
+[Fri Sep 30 17:07:17.510 2016] [15681] listening on all interfaces, port=9306
+[Fri Sep 30 17:07:17.546 2016] [15681] WARNING: index 'articals_dist': agent_persistent used, but no persistent_connections_limit defined. Fall back to non-persistent agent
+[Fri Sep 30 17:07:17.547 2016] [15681] WARNING: multiple addresses found for 'localhost', using the first one (ip=127.0.0.1)
+[Fri Sep 30 17:07:17.549 2016] [15681] accepting connections
+[Fri Sep 30 17:11:32.188 2016] [15768] watchdog: main process 15769 forked ok
+[Fri Sep 30 17:11:32.188 2016] [15769] FATAL: failed to lock pid file '/usr/local/sphinx/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
+[Fri Sep 30 17:11:32.190 2016] [15768] watchdog: main process 15769 exited cleanly (exit code 1), shutting down
+[Fri Sep 30 17:11:41.666 2016] [15681] caught SIGTERM, shutting down
+[Fri Sep 30 17:11:41.696 2016] [15681] rt: index articals_rt: ramchunk saved in 0.001 sec
+[Fri Sep 30 17:11:41.798 2016] [15681] shutdown complete
+[Fri Sep 30 17:11:41.802 2016] [15680] watchdog: main process 15681 exited cleanly (exit code 0), shutting down
+[Fri Sep 30 17:11:53.722 2016] [15777] watchdog: main process 15778 forked ok
+[Fri Sep 30 17:11:53.727 2016] [15778] listening on all interfaces, port=9312
+[Fri Sep 30 17:11:53.727 2016] [15778] listening on all interfaces, port=9306
+[Fri Sep 30 17:11:53.762 2016] [15778] WARNING: multiple addresses found for 'localhost', using the first one (ip=127.0.0.1)
+[Fri Sep 30 17:11:53.764 2016] [15778] accepting connections

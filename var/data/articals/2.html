@@ -1,0 +1,14 @@
+v class="sect2" title="12.1.27.&nbsp;sql_file_field"><div class="titlepage"><div><div><h3 class="title"><a name="conf-sql-file-field"></a>12.1.27.&nbsp;sql_file_field</h3></div></div></div>
+<p>
+File based field declaration.
+Applies to SQL source types (<code class="option">mysql</code>, <code class="option">pgsql</code>, <code class="option">mssql</code>) only.
+Introduced in version 1.10-beta.
+</p><p>
+This directive makes <code class="filename">indexer</code> interpret field contents
+as a file name, and load and index the referred file.  Files larger than
+<a class="link" href="#conf-max-file-field-buffer" title="12.3.6.&nbsp;max_file_field_buffer">max_file_field_buffer</a>
+in size are skipped.  Any errors during the file loading (IO errors, missed
+limits, etc) will be reported as indexing warnings and will <span class="bold"><strong>not</strong></span> early
+terminate the indexing.  No content will be indexed for such files.
+</p><h4><a name="idp32462624"></a>Example:</h4><pre class="programlisting">sql_file_field = my_file_path # load and index files referred to by my_file_path
+</pre></div>

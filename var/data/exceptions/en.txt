@@ -1,0 +1,11 @@
+AT & T => AT&T
+AT&T => AT&T
+Standarten   Fuehrer => standartenfuhrer
+Standarten Fuhrer => standartenfuhrer
+MS Windows => ms windows
+Microsoft Windows => ms windows
+C++ => cplusplus
+c++ => cplusplus
+C plus plus => cplusplus
+sql db => SQL 
+hhhh => indexes

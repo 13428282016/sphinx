@@ -1,0 +1,37 @@
+#
+# === source articals ts 1474966957
+# Tue Sep 27 17:02:37 2016
+#
+# field 0: title
+# field 1: content
+# field 2: author_id
+# sql_attr_uint = author_id # attr 0
+# sql_attr_timestamp = created_at # attr 1
+#
+
+DROP TABLE IF EXISTS rows_articals;
+CREATE TABLE rows_articals (
+  id VARCHAR(32) NOT NULL,
+  author_id VARCHAR(4096) NOT NULL,
+  created_at VARCHAR(4096) NOT NULL,
+  title VARCHAR(4096) NOT NULL,
+  content VARCHAR(4096) NOT NULL,
+  KEY(id) );
+
+INSERT INTO rows_articals VALUES ('1', '1', '1474428052', 'Data sources', 'The data to be indexed can generally come from very different sources: SQL databases, plain text files, HTML files, mailboxes, and so on. From Sphinx point of view, the data it indexes is a set of structured documents, each of which has the same set of fields and attributes. This is similar to SQL, where each row would correspond to a document, and each column to either a field or an attribute.');
+INSERT INTO rows_articals VALUES ('2', '1', '1474428052', 'Full-text fields', 'Full-text fields (or just fields for brevity) are the textual document contents that get indexed by Sphinx, and can be (quickly) searched for keywords.');
+INSERT INTO rows_articals VALUES ('3', '1', '1474428052', 'Attributes', '
+Attributes are additional values associated with each document that can be used to perform additional filtering and sorting during search.
+It is often desired to additionally process full-text search results based not only on matching document ID and its rank, but on a number of other per-document values as well. For instance, one might need to sort news search results by date and then relevance, or search through products within specified price range, or limit blog search to posts made by selected users, or group results by month. To do that efficiently, Sphinx allows to attach a number of additional attributes to each document, and store their values in the full-text index. Its then possible to use stored values to filter, sort, or group full-text matches.
+');
+INSERT INTO rows_articals VALUES ('4', '2', '1474428052', ' MVA (multi-valued attributes)', 'MVAs, or multi-valued attributes, are an important special type of per-document attributes in Sphinx. MVAs let you attach sets of numeric values to every document. That is useful to implement article tags, product categories, etc. Filtering and group-by (but not sorting) on MVA attributes is supported.');
+INSERT INTO rows_articals VALUES ('5', '2', '1474428052', 'Indexes', '
+To be able to answer full-text search queries fast, Sphinx needs to build a special data structure optimized for such queries from your text data. This structure is called index; and the process of building index from text is calledindexing.
+Different index types are well suited for different tasks. For example, a disk-based tree-based index would be easy to update (ie. insert new documents to existing index), but rather slow to search. Sphinx architecture allows internally for different index types, or backends, to be implemented comparatively easily.
+');
+INSERT INTO rows_articals VALUES ('6', '3', '1474428052', 'Restrictions on the source data', 'There are a few different restrictions imposed on the source data which is going to be indexed by Sphinx, of which the single most important one is:
+ALL DOCUMENT IDS MUST BE UNIQUE UNSIGNED NON-ZERO INTEGER NUMBERS (32-BIT OR 64-BIT, DEPENDING ON BUILD TIME SETTINGS).
+If this requirement is not met, different bad things can happen. For instance, Sphinx can crash with an internal assertion while indexing; or produce strange results when searching due to conflicting IDs. Also, a 1000-pound gorilla might eventually come out of your display and start throwing barrels at you. Youve been warned.');
+INSERT INTO rows_articals VALUES ('7', '3', '1474428052', 'Charsets, case folding, translation tables, and replacement rules', 'When indexing some index, Sphinx fetches documents from the specified sources, splits the text into words,');
+INSERT INTO rows_articals VALUES ('8', '3', '1474428052', 'SQL data sources (MySQL, PostgreSQL)', 'Main query, which needs to fetch all the documents, can impose a read lock on the whole table and stall the concurrent queries (eg. INSERTs to MyISAM table), waste a lot of memory for result set, etc. To avoid this, Sphinx supports so-called ranged queries. With ranged queries, Sphinx first fetches min and max document IDs from the table, and then substitutes different ID intervals into main query text and runs the modified query to fetch another chunk of documents. Heres an example.');
+INSERT INTO rows_articals VALUES ('9', '3', '1474428052', 'Live index updates', 'There are two major approaches to maintaining the full-text index contents up to date. Note, however, that both these approaches deal with the task of full-text data updates, and not attribute updates. Instant attribute updates are supported since version 0.9.8. Refer to UpdateAttributes() API call description for details.');

@@ -1,0 +1,12 @@
+v class="sect2" title="12.1.30.&nbsp;sql_ranged_throttle"><div class="titlepage"><div><div><h3 class="title"><a name="conf-sql-ranged-throttle"></a>12.1.30.&nbsp;sql_ranged_throttle</h3></div></div></div>
+<p>
+Ranged query throttling period, in milliseconds.
+Optional, default is 0 (no throttling).
+Applies to SQL source types (<code class="option">mysql</code>, <code class="option">pgsql</code>, <code class="option">mssql</code>) only.
+</p><p>
+Throttling can be useful when indexer imposes too much load on the
+database server. It causes the indexer to sleep for given amount of
+milliseconds once per each ranged query step. This sleep is unconditional,
+and is performed before the fetch query.
+</p><h4><a name="idp32481328"></a>Example:</h4><pre class="programlisting">sql_ranged_throttle = 1000 # sleep for 1 sec before each query step
+</pre></div>
