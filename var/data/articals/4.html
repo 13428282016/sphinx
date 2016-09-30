@@ -1,0 +1,16 @@
+v class="sect2" title="12.1.29.&nbsp;sql_query_post_index"><div class="titlepage"><div><div><h3 class="title"><a name="conf-sql-query-post-index"></a>12.1.29.&nbsp;sql_query_post_index</h3></div></div></div>
+<p>
+Post-index query.
+Optional, default value is empty.
+Applies to SQL source types (<code class="option">mysql</code>, <code class="option">pgsql</code>, <code class="option">mssql</code>) only.
+</p><p>
+This query is executed when indexing is fully and successfully completed.
+If this query produces errors, they are reported as warnings,
+but indexing is <span class="bold"><strong>not</strong></span> terminated. It's result set is ignored.
+<code class="code">$maxid</code> macro can be used in its text; it will be
+expanded to maximum document ID which was actually fetched
+from the database during indexing. If no documents were indexed,
+$maxid will be expanded to 0.
+</p><h4><a name="idp32476560"></a>Example:</h4><pre class="programlisting">sql_query_post_index = REPLACE INTO counters ( id, val ) \
+    VALUES ( 'max_indexed_id', $maxid )
+</pre></div>

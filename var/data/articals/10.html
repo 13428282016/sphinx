@@ -1,0 +1,13 @@
+<div class="sect2" title="12.1.26.&nbsp;sql_field_string"><div class="titlepage"><div><div><h3 class="title"><a name="conf-sql-field-string"></a>12.1.26.&nbsp;sql_field_string</h3></div></div></div>
+<p>
+Combined string attribute and full-text field declaration.
+Multi-value (ie. there may be more than one such attribute declared), optional.
+Applies to SQL source types (<code class="option">mysql</code>, <code class="option">pgsql</code>, <code class="option">mssql</code>) only.
+Introduced in version 1.10-beta.
+</p><p>
+<a class="link" href="#conf-sql-attr-string" title="12.1.23.&nbsp;sql_attr_string">sql_attr_string</a> only stores the column
+value but does not full-text index it.  In some cases it might be desired to both full-text
+index the column and store it as attribute.  <code class="option">sql_field_string</code> lets you do
+exactly that. Both the field and the attribute will be named the same.
+</p><h4><a name="idp32455472"></a>Example:</h4><pre class="programlisting">sql_field_string = title # will be both indexed and stored
+</pre></div>
