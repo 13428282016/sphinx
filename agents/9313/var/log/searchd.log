@@ -47,6 +47,7 @@
 [Fri Sep 30 14:56:32.478 2016] [13633] rotating index 'articals': started
 [Fri Sep 30 14:56:32.503 2016] [13633] rotating index 'articals': success
 [Fri Sep 30 14:56:32.503 2016] [13633] rotating index: all indexes done
+<<<<<<< HEAD
 [Sat Oct  8 10:28:43.631 2016] [7296] watchdog: main process 7297 forked ok
 [Sat Oct  8 10:28:43.632 2016] [7297] FATAL: failed to lock pid file '/usr/local/sphinx/agents/9313/var/log/searchd.pid': Resource temporarily unavailable (searchd already running?)
 [Sat Oct  8 10:28:43.648 2016] [7296] watchdog: main process 7297 exited cleanly (exit code 1), shutting down
@@ -59,3 +60,5 @@
 [Sat Oct  8 10:29:17.290 2016] [7315] listening on all interfaces, port=9307
 [Sat Oct  8 10:29:17.392 2016] [7315] WARNING: multiple addresses found for 'localhost', using the first one (ip=127.0.0.1)
 [Sat Oct  8 10:29:17.394 2016] [7315] accepting connections
+=======
+>>>>>>> ac00832c12aa61bc39ec6efa19a1c6e86a2d7b6b
